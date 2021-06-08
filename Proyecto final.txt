@@ -1,0 +1,73 @@
+Descripción del grupo
+PROYECTO FINAL - # 2
+Planteamiento del problema
+Importaciones de vehículos y repuestos
+Se le solicita que diseñe la base de datos que soportará el control de importaciones de vehículos con las siguientes reglas del negocio:
+• Se maneja un listado de países, con código, nombre y continente.
+• Se lleva un registro de empleados, almacenando su DPI, nombre completo, Puesto, Departamento, edad, dirección de residencia, departamento, correo electrónico, teléfono, jefe (se debe registrar el código de empleado del jefe)
+• Se registra un inventario de artículos que pueden ser vehículos y repuestos, de los cuales se almacena un código principal parte o VIN, tipo de articulo (v=vehículo | r= repuesto), precio de venta, país de origen, cantidad en existencia, Estado (activo | inactivo), nombre del articulo
+• Se registra un catálogo de proveedores locales o internacionales, almacenando Código de proveedor, Nombre, email, teléfono, dirección, número de teléfono, país de origen
+• Los vehículos como parte del inventario de artículos también se registra el fabricante, motor cc, línea, año, color, número de asientos, tonelaje, peso.
+• Se tiene el control de los departamentos de la empresa con los que se desea tener los datos siguientes, código de departamento y nombre de departamento.
+• Se registra la entrada de embarques de repuestos y vehículos, almacenando el tracking id o packing list como código de embarque, cantidad de piezas por artículo, fecha de recepción, código de empleado que recibió el embarque, modalidad de embarque (aéreo | marítimo | terrestre), código de articulo (repuesto | vehículo), código de proveedor, valor por artículo.
+• Los vehículos se clasifican en Bus, Carro, Tractor, Camión, Trailer y Plataforma
+
+Requerimientos:
+a) Diseñar e implementar una base de datos en SQL Server
+b) Popular las tablas con una buena cantidad de datos como minimo 15 registros
+C) Implementar UNA solución de alta disponibilidad 
+- Cluster 
+- Always ON
+- Replicación Transacción
+- Log Shipping
+
+d) Desarrollar una aplicación con al menos:
+ Ingreso de usuarios por medio de login/password
+ Ingreso de datos a un catalogo (ABC)
+ Ingreso de datos a un maestro-detalle (ABC)
+ 2 Reportes o consultas haciendo join entre tablas
+ 
+e) Manejo de la concurrencia / niveles de aislamiento.
+
+f) Puntos extras si esta implementado en docker la base de datos y la aplicación
+
+Entregables:
+1) Documento donde se indique los nombres de los integrantes de grupo, el coordinador deberá indicar el porcentaje
+que trabajo cada integrante del grupo desde el 100% hasta 0%
+2) Script de la base de datos en SQL Server y Diagrama de modelo relacional (captura de pantalla)
+3) Documentar la solución de alta disponibilidad que fue implementada para el proyecto 
+4) Documentar cada pantalla de la aplicacion
+5) Presentar código fuente de la aplicación en un repositorio de GitHub, Link incluido en el documento
+6) Realizar un video de youtube de no mas de 10 minutos donde cada integrante de grupo realiza 
+   la presentación de una parte del proyecto y realizar la durante la presentación, varias pruebas del manejo
+   de la concurrencia entre la aplicación y la base de datos. Link incluido en el documento
+
+Condiciones:
+No se permiten trabajos duplicados, de lo contrario se quitaran los puntos a grupos con trabajos distintos
+
+Valor del proyecto: 
+15 puntos 
+Fecha de Entrega: 
+2021-06-08 08:00PM
+
+
+Francisco Aroche15:08
+PROYECTO FINAL
+a) Diseñar e implementar una base de datos
+b) Popular las tablas con datos
+C) Implementar UNA solución de alta disponibilidad 
+- Cluster 
+- Replicación Transacción
+- Log Shipping
+- Always ON
+
+d) Desarrollar una aplicación con al menos:
+	Ingreso de usuarios por medio de login/password
+	Ingreso de datos a un catalogo (ABC)
+	Ingreso de datos a un maestro-detalle
+	Reportes
+	
+e) manejo de la concurrencia / niveles de aislamiento.
+
+f) Puntos extras si esta implementado en docker la base
+Valor 15 puntos - Fecha de Entrega 2021-06-09
